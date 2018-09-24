@@ -1,0 +1,257 @@
+img{
+    border: none;
+}
+p{
+    padding: 0;
+}
+
+table.detail-view {
+    font-size: 16px !important;
+}
+table.detail-view tr.odd {
+    background: none repeat scroll 0 0 #D6D6D6 !important;
+}
+#bloque-menu{
+    background-color: #7C3F8C;
+    height: 38px;
+    padding-right: 15px;
+    width: 100%;
+}
+#boton-cerrar{
+    background: none repeat scroll 0 0 #F2F2F2;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+#boton-cerrar a{
+    padding: 0 20px;
+}
+#boton-menu{
+    float: right;
+    height: 39px;
+    width: 65px;
+}
+#btn-left{
+    background: url(../images/global/Control-atras.png)no-repeat #737373;
+    background-position: 8px;
+}
+#btn-left:hover{
+    background: url(../images/global/Control-atras.png)no-repeat #D6D6D6;
+    background-position: 8px;
+}
+#btn-right{
+    background: url(../images/global/Control-siguente.png)no-repeat #737373;
+    background-position: 8px;
+}
+#btn-right:hover{
+    background: url(../images/global/Control-siguente.png)no-repeat #D6D6D6;
+    background-position: 8px;
+}
+#btn-left, #btn-right{
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+    display: inline-block;
+    height: 35px;
+    margin: 2px 0 0;
+    padding: 0;
+    width: 30px;
+}
+#date{
+    color: #737373;
+    font-size: 13px;
+    left: 165px;
+    position: absolute;
+    top: 95px;
+}
+
+#confiserver{
+    display: inline-block;
+    float: right;
+    margin: 4px;
+}
+
+#div-foto{    
+    border: 1px solid darkgray;
+    display: none;  
+    margin-top: 1%;
+    right: 0.5%;
+    /*right: 0em;    
+    height: 200px;*/
+    float: outside;
+    position: absolute;
+    width: 250px;
+    z-index: -1;
+    background-color: #fefefe;
+}
+
+/* Default styles first then media queries */
+@media screen and (max-width: 950px)  {
+    #div-foto {
+    /*left: 0px;*/
+    border: 1px solid darkgray;
+    display: none;  
+    margin-top: 7%;
+    float: outside;
+    position: relative;
+    width: 250px;
+    z-index: 999;
+  }
+}
+#div-menu{
+    float:left;
+    width: 70%;
+    display: inline-block;
+}
+#div-name{
+    clear: both;
+    background: transparent;
+    height: auto;
+    cursor: pointer;
+}
+#div-name:hover{
+   opacity: 0.8;
+    filter: alpha(opacity=04);
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255, 255, 255) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(255, 255, 255, 0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF, endColorstr=#CCFFFFFF)";
+    
+    background-color: #e5e5e5;
+    color: #AB162B;
+}
+#div-name p{
+    color: #FFF;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-top: 10px;
+    text-align: right;
+}
+#div-name span{
+    padding: 0 3px;
+}
+#foto{
+    color:#873299;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    margin-top: 10px;
+    width: auto;
+    z-index: 0;
+}
+#foto-name{
+    background: none repeat scroll 0 0 #E6E6E6;
+    border-bottom: 3px solid #D6D6D6;
+    height: 107px;
+    padding: 20px;
+}
+#foto-name img{        
+    padding-right: 25px;
+    padding-bottom: 5px;
+}
+#foto-name #name{    
+    color: #737373;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+#img-perfil{
+    display: inline-block;
+    height: 120px;
+    position: relative;
+    width: 110px;
+}
+.loadImg{
+    display: none;
+    height: 65px;
+    margin: auto;
+    position: absolute;
+    top: 70px;
+    vertical-align: middle;
+    width: 110px;
+    z-index: 1;
+}
+.menuVer{
+    margin: 0;
+    padding: 0;
+    
+}
+.menuVer li{
+    list-style: none outside none;
+}
+.menuVer li a{
+    border-bottom: 1px solid #FFAE00;
+    border-top: 1px solid #FFFFFF;
+    color: #000000;
+    display: block;
+    font-weight: bolder;
+    height: 19px;
+    padding:8px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.menuVer  a:hover, .menuVer.activo a{
+    background: #ffae00;
+    background: -moz-linear-gradient(top, #ffae00 0%, #ffeeff ef 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffae00), color-stop(100%, #ffeeff ef));
+    background: -webkit-linear-gradient(top, #ffae00 0%, #ffeeff ef 100%);
+    background: -o-linear-gradient(top, #ffae00 0%, #ffeeff ef 100%);
+    background: -ms-linear-gradient(top, #ffae00 0%, #ffeeff ef 100%);
+    background: linear-gradient(top, #ffae00 0%, #ffeeff ef 100%);
+    -moz-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);   
+    color: white;
+    font-weight: bold;
+}
+.outer-center{
+    padding: 0 !important;
+}
+.ui-layout-north{
+    padding: 0 !important;
+}
+/*
+.menuVer {
+    border-bottom: 1px dotted #FFBE33;
+    color: #4F4D4F;
+    display: block;
+    filter: none;
+    font-size: 17px;
+}          */
+
+
+/* Ocultamos el input file */
+
+#Users_file, .uploadfile{
+    filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+    left: 208px;
+    line-height: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    opacity: 0;
+    padding: 0;
+    /*position: absolute;*/
+    width: 190px;
+    cursor: pointer;
+}
+/* Al label lo convertimos en "boton" 
+(en apariencia) */
+.cargar{
+    text-align: center;
+    background-color: #7C3F8C;
+    color: #fff;
+    display: block;
+    border-radius: 3px;
+    width: 190px;
+    height: 30px;
+    font-size: 18px;
+    float: left;
+    line-height: 1.6em;
+}

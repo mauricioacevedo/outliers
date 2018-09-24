@@ -1,0 +1,23 @@
+/*******************************************************************************
+* Software: Grid Module                                                        *
+* Version:  1.0                                                                *
+* Date:     2013-10-09                                                         *
+* Author:   Jorge Arzuaga                                                      *
+* License:  Freeware                                                           *
+*                                                                              *
+* You may use and modify this software as you wish.                            *
+*******************************************************************************/
+
+/*******************************************************************************
+* jQgrid is a js script based in jQuery										   *
+* Download jqGrid for PHP from http://www.trirand.net/                         *
+*******************************************************************************/
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation;
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.
+[http://www.opensource.org/licenses/lgpl-license.php]

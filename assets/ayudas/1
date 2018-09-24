@@ -1,0 +1,12 @@
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+kbuildsycoca4 running...
+kbuildsycoca4(28294) KConfigGroup::readXdgListEntry: List entry MimeType in ".hidden/kmdr-executor.desktop" is not compliant with XDG standard (missing trailing semicolon). 
+kbuildsycoca4(28294) KConfigGroup::readXdgListEntry: List entry Keywords in "/usr/share/applications/kde/kresources.desktop" is not compliant with XDG standard (missing trailing semicolon). 
+kbuildsycoca4(28294)/kdecore (services) KServicePrivate::init: The desktop entry file "/usr/share/applications/kde/kresources.desktop" has Type= "Application" but also has a X-KDE-Library key. This works for now, but makes user-preference handling difficult, so support for this might be removed at some point. Consider splitting it into two desktop files. 
+Object::connect: No such signal org::freedesktop::UPower::DeviceAdded(QDBusObjectPath)
+Object::connect: No such signal org::freedesktop::UPower::DeviceRemoved(QDBusObjectPath)
+Object::connect: No such signal org::freedesktop::UPower::DeviceAdded(QDBusObjectPath)
+Object::connect: No such signal org::freedesktop::UPower::DeviceRemoved(QDBusObjectPath)
+kolourpaint(28259): couldn't create slave: "Unable to create io-slave:
+klauncher said: Unknown protocol ''.
+" 

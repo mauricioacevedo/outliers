@@ -1,0 +1,23 @@
+/* Default styles first then media queries */
+@media (max-width: 950px)  {
+   .navbar-search{ 
+   display: none;
+}
+}
+/* COMMON CLASSES */
+.break { clear:both; }
+/* SEARCH FORM */
+#suggestions{ 
+    position: absolute; 
+    float:outside; 
+    left:0px; 
+    width:200px; 
+    display:none; 
+    height: 400px; 
+    overflow: auto;
+    z-index: 1;
+}
+
+.bg{
+	background-color: transparent;
+}

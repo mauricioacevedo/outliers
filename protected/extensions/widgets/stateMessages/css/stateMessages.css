@@ -1,0 +1,18 @@
+/**
+* Subdireccion Aplicaciones Corporativas
+* @author Joan Harriman Navarro M - jnavarrm@asesor.une.com.co
+* @copyright UNE TELECOMUNICACIONES
+*/
+.ui-state-info, .ui-widget-content .ui-state-info, .ui-widget-header .ui-state-info  {border: 1px solid #A9BCF5; background: #CED8F6 url(../images/blue.png) 50% 50% repeat-x; color: #444444; }
+.ui-state-info a, .ui-widget-content .ui-state-info a,.ui-widget-header .ui-state-info a { color: #444444; }
+
+.ui-state-warning, .ui-widget-content .ui-state-warning, .ui-widget-header .ui-state-warning  {border: 1px solid #fcd3a1; background: #fbf8ee url(../images/yellow.png) 50% 50% repeat-x; color: #444444; }
+.ui-state-warning a, .ui-widget-content .ui-state-warning a,.ui-widget-header .ui-state-warning a { color: #444444; }
+
+.ui-state-alert, .ui-widget-content .ui-state-alert, .ui-widget-header .ui-state-alert {border: 1px solid #cc0000; background: #f3d8d8 url(../images/red.png) 50% 50% repeat; color: #2e2e2e; }
+.ui-state-alert a, .ui-widget-content .ui-state-alert a, .ui-widget-header .ui-state-alert a { color: #2e2e2e; }
+
+.ui-state-success, .ui-widget-content .ui-state-success, .ui-widget-header .ui-state-success  {border: 1px solid #A9F5D0; background: #CEF6E3 url(../images/green.png) 50% 50% repeat-x; color: #444444; }
+.ui-state-success a, .ui-widget-content .ui-state-success a,.ui-widget-header .ui-state-success a { color: #444444; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 6px; -webkit-border-top-left-radius: 6px; -khtml-border-top-left-radius: 6px; border-top-left-radius: 6px; }

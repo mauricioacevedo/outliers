@@ -1,0 +1,22 @@
+.icons{
+	background-image: url(icons-p.png);
+	background-repeat:no-repeat;
+    
+    height:16px;
+    width:16px;
+    
+    display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	
+	position: absolute;
+	top: .2em;
+	left: .2em;
+	
+}
+
+.icons-bell { background-position: -7px -28px }
+.icons-question-sign { background-position: -490px -501px }
+.icons-hdd { background-position: -490px -649px }
+.icons-list-alt { background-position: -251px -19px }

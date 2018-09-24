@@ -1,0 +1,49 @@
+#sidePanel{
+    width:245px;
+    position:fixed;
+    left:-202px;
+    top:25%;   
+    z-index: 10; 
+}
+#panelHandle{
+    background-color:#666666;    
+    height:75px;
+    width:40px;
+    border-radius:0 5px 5px 0;
+    float:left;
+    cursor:pointer;    
+}
+#panelHandle p {	
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    left: -4px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 26px;
+}
+#panelContent{
+  	float:left;
+  	border:1px solid #383839;
+  	width:200px;
+  	background: white;	
+}
+#settings {	
+    color: White;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+}
+/**
+css del toggle....
+*/
+.js .checkbox{
+  display:none;
+}
+.toggle{
+   background:url("../../../images/debug/toggle.png") bottom left;
+   display:block;
+   width:70px;
+   height:20px;
+}

@@ -1,0 +1,60 @@
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	/*border:2px solid #ddd;*/
+}
+
+div.flash-error
+{
+    background: url("../images/global/ico-52.png") no-repeat;
+    /*	background:#E6EFC2;
+            color:#264409;
+            border-color:#C6D880;*/
+    display: block;
+    height: 40px;
+    width: 610px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 18px;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background: url("../images/global/ico-53.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 40px;
+    left: 50%;
+    margin: -50px auto 0 -135px;
+    padding-left: 70px;
+    position: fixed;
+    text-align: left;
+    top: 55%;
+    width: 200px;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}

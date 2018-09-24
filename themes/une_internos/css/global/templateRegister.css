@@ -1,0 +1,190 @@
+/**
+* Subdireccion Aplicaciones Corporativas
+* @author Joan Harriman Navarro M - jnavarrm@asesor.une.com.co
+* @copyright UNE TELECOMUNICACIONES
+*/
+@charset "UTF-8";
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, menu, time, mark, audio, video {
+	font-family:Arial, Helvetica, sans-serif;
+}
+img{
+    border: none;
+}
+body {	
+	margin:0px;
+	background-attachment: fixed;
+	background-image: url(../../images/global/back.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#main_content{
+    /*width:66%;*/
+    width: 55em;
+    margin: 0 auto;
+    /*margin-top: 107px;*/
+    border-radius:1px;
+    padding:15px 0 15px 0;
+    background-color: #F2F2F2;
+    box-shadow: 1px 3px 8px #BBB;
+    webkit-box-shadow: 1px 3px 8px #BBB;
+    -moz-box-shadow: 1px 3px 8px #BBB;
+    margin-bottom: 100px;
+}
+#content{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 15px;    
+}
+#date{
+    color: #737373;
+    font-size: 13px;
+    left: 163px;
+    position: fixed;
+    top: 95px;
+    z-index: 1;
+}
+#head {
+	top:0px;
+	width:100%;
+	position:fixed;
+	background: url(../../images/global/bg-head.png) #FFF;
+	background-repeat: repeat-x;
+	padding-top:2px;
+    z-index: 1;
+}
+#sitename {	
+	font-size:30px;
+	font-weight:bolder;
+	margin-left:160px;
+	margin-right:0px;
+	top:32px;
+	z-index:999;
+	position: fixed;		
+	color:#A63000;
+	text-shadow: 4px 2px #CCCCCC;    
+}
+#login{	
+	font-size:8pt;
+	color: #666;
+	text-align:center;
+	background:#f2f2f2;	
+	width:400px;
+    margin: 0 auto;
+    border-radius:15px;
+    padding:0px 2px 8px 0;    
+	box-shadow: 1px 3px 15px #BBB;
+    webkit-box-shadow: 1px 3px 15px #BBB;
+    -moz-box-shadow: 1px 3px 15px #BBB;
+	
+}
+#innercontent{	
+	font-size:8pt;
+	color: #666;
+	text-align:center;
+	background:#f2f2f2;	
+	width:98%;
+    margin: 0 auto;
+    border-radius:4px;
+    padding:0px 2px 8px 0;    
+	box-shadow: 1px 3px 4px #BBB;
+    webkit-box-shadow: 1px 3px 4px #BBB;
+    -moz-box-shadow: 1px 3px 4px #BBB;
+	
+}
+#yw0_button {
+	position:absolute;
+	left: 45%;
+	margin-top: 38px;
+}
+#foot{	
+    position: fixed;
+    bottom: 0px;
+	font-size:8pt;
+	color: #666;
+	text-align:center;
+	background:#f2f2f2;
+	height:90px;	
+	width:100%;
+    margin: 0 auto;
+    border-radius:4px;
+    padding:0px 2px 8px 0;    
+	box-shadow: 1px 3px 1px #BBB;
+    webkit-box-shadow: 1px 3px 1px #BBB;
+    -moz-box-shadow: 1px 3px 1px #BBB;
+	
+}
+#foot2{	
+	font-size:8pt;
+	color: #666;
+	text-align:center;
+	background:#f2f2f2;
+	width:auto; 
+    padding:10px;
+}
+p {
+	font-size:10pt;
+}
+h2 {
+	font-size:12pt;
+	/*color:#fff;*/
+        
+	font-weight: normal;
+}
+#division1{
+	height:5px;
+	background:#E8E8E8;
+	margin-bottom:25px;
+}
+#menu {
+	font-size:8pt;
+	font-weight: bold;
+	padding-top:0px;
+}
+.menuD-A {
+	background-image: url(../../images/global/bg-menuD1.png);
+	background-repeat: repeat-x;
+		height:29px;
+	text-align:center;
+	font-size:12pt;
+	font-weight: bold;
+	padding-top:14px;
+}
+.menuD-B {
+	background-image: url(../../images/global/bg-menuD2.png);
+	background-repeat: repeat-x;
+	color:#FFF;
+	height:29px;
+	text-align:center;
+	font-size:12pt;
+	font-weight: bold;
+	padding-top:14px;
+}
+
+.submenuD-A {
+	background-image: url(../../images/global/bg-submenu1.png);
+	background-repeat: repeat-x;
+	color:#737373;
+	height:30px;
+	text-align:left;
+	font-size:10pt;
+	padding:3px 0 0 10px;
+}
+
+.submenuD-B {
+	background-image: url(../../images/global/bg-submenu2.png);
+	background-repeat: repeat-x;
+	color:#FFF;
+	height:30px;
+	text-align:left;
+	font-size:10pt;
+	padding:3px 0 0 10px;
+}
+
+.campo {
+	font-size:11pt;
+	color:#D11D2B;
+	font-weight: bold;
+	text-align:right;
+}

@@ -1,0 +1,133 @@
+/**
+ * Subdireccion Aplicaciones Corporativas
+ * @author Joan Harriman Navarro M - jnavarrm@asesor.une.com.co
+ * @copyright UNE TELECOMUNICACIONES
+ */
+
+#border-head{
+    border-left: #FFF solid 2px;
+}
+#censo td{
+    padding-left: 15px;
+}
+#head-register{
+    background-color: #7C3F8C;
+    height: 42px;
+    margin: 123px 0 auto;
+    width: 100%;
+    font-size: smaller;
+    color:#F2F2F2;
+}
+#head-register #censo{
+    background-color: #737373;        
+    padding: 0px 0px;       
+    width: 100%;
+}
+#head-register #format{
+    margin: 0 auto;
+    /*width: 66%;*/
+    /*width: 68em;*/
+    width: 886px;
+    position: relative;
+    margin-top: -3px;
+}
+#imgRegisterLink{
+    margin-left: -18px;
+    margin-top: -3px;
+    position: absolute;
+}
+#linkRegister{
+    color: #D11D2B;
+    font-size: 9pt;
+    font-weight: bold;
+}
+#linkRegister:hover{
+    color: #A63000
+}
+#mvc-users-form-register{
+    font-size: smaller;
+    font-weight: bold;
+}
+#mvc-users-form-register input[type=text]{
+/*    height: 1.8em;
+    padding: 2px 1em;*/
+    height: 1.3em;
+    padding: 0.7em;
+    width: 18em;
+}
+
+.name-lastname{
+    border: 2px solid #CCCCCC;
+    font-weight: normal;
+    height: 1.3em;
+    padding: 0.7em;
+    width: 27.4em;
+    overflow-y: auto;
+}
+.input-label{
+    border: 2px solid #CCCCCC;
+    font-weight: normal;
+    height: 1.3em;
+    overflow-y: auto;
+    padding: 0.7em;
+    width: 18em;    
+}
+.logo{
+    background: url("../images/global/myse.png") no-repeat;
+    display: block;
+    height: 35px;
+    width: 90px;
+}
+#modules input[type=checkbox], #modules label{
+    float: left;
+    font-weight: normal;
+    padding: 0 5px;
+}
+#boton-dummy{
+    background: url("../images/global/ico-buscar.png") no-repeat;
+    border: medium none;
+    height: 20px;    
+    cursor: pointer;
+    margin-left: 8px;
+    width: 28px;
+    padding-bottom: 2px;
+}
+#btn-submit-reg{
+    background-color: #7C3F8C;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 39px;
+    margin: 25px auto 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 256px;
+    cursor: pointer;
+}
+#modules{
+    clear: left;
+    padding-top: 7px;
+}
+.mod {
+    float: left;
+    padding-right: 0px;
+}
+
+label[for="MvcUsers_modules_0"] {
+   width: 240px;
+}
+label[for="MvcUsers_modules_3"] {
+   width: 240px;
+}
+label[for="MvcUsers_modules_1"] {
+   width: 65px;
+}
+label[for="MvcUsers_modules_4"] {
+   width: 65px;
+}
+label[for="MvcUsers_modules_5"] {
+   width: 65px;
+}

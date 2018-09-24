@@ -1,0 +1,24 @@
+/**
+* Subdireccion Aplicaciones Corporativas
+* @author Joan Harriman Navarro M - jnavarrm@asesor.une.com.co
+* @copyright UNE TELECOMUNICACIONES
+*/
+
+@media screen and (max-width: 500px) {   
+    .clock {
+        margin-top: 20px;
+        color: #333 !important;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+.clock {
+    margin-top: 20px;
+    color: #333 !important;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}

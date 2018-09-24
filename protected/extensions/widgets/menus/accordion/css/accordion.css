@@ -1,0 +1,92 @@
+/**
+ * Subdireccion Aplicaciones Corporativas
+ * @author Joan Harriman Navarro M - jnavarrm@asesor.une.com.co
+ * @copyright UNE TELECOMUNICACIONES
+ */
+
+a:LINK{ text-decoration: none; color:black;}
+a:VISITED {text-decoration: none; color:black;}
+
+#accordion {
+	padding: 0px 0px 0px 0;	
+	 border-radius: 5px 5px 0 0; 
+}
+
+#accordion ul {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	line-height: 20px;
+	list-style: none;
+	text-decoration: none;	
+}
+#accordion ul li {
+	
+	list-style: none;
+}
+#accordion ul li a {
+	text-align:center;	
+   	background: #f6f6f6;	  
+	line-height: 20px;
+	font-size: 13px;
+	padding: 10px 5px;
+	color: #000;
+	display: block;
+	text-decoration: none;
+	font-weight: bolder;	
+    padding:0px 2px 8px 0;      
+	box-shadow: 1px 3px 15px #BBB;
+    webkit-box-shadow: 1px 3px 15px #BBB;
+    -moz-box-shadow: 1px 3px 15px #BBB;
+    border-color: white;
+}
+
+#accordion ul li a:hover {
+	background-color:#ffae00;
+	color:purple;
+	font-size:14px;
+}
+
+#accordion ul ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+#accordion ul ul li {
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#accordion ul ul li a {
+	background-color:#f2f2f2;
+	padding:0px 2px 8px 0;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#accordion ul ul li a:hover {
+	background-color:#ffce90;
+	padding-left: 20px;
+	color:#675C7C;
+}
+
+#accordion ul ul ul li a {
+	padding:0px 2px 8px 0;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+#accordion ul ul ul li a:hover {
+	background-color:#DDD;
+	color:#675C7C;
+}
+
+#accordion ul span{
+	float:right;
+}
+
+#accordion li span{
+	float:right;
+}
